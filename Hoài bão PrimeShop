@@ -1,0 +1,80 @@
+3. Hệ thống thương mại điện tử dành cho cửa hàng nhỏ lẻ (E-commerce Platform for SMEs)
+I. Đồ án cơ sở (Giai đoạn 1.1)
+🔹 Mục tiêu: Xây dựng nền tảng cơ bản của hệ thống, đảm bảo hệ thống hoạt động ổn định, API vững chắc, giao diện cơ bản có thể sử dụng.
+ 🔹 Công nghệ sử dụng:
+Backend: Spring Boot (Java), Node.js (Express.js)
+Frontend: React.js
+Database: SQL Server
+Authentication: JWT (JSON Web Token)
+1. Chức năng chính
+1.1. Hệ thống tài khoản & phân quyền
+✅ Đăng ký tài khoản khách hàng & người bán
+ ✅ Đăng nhập, đăng xuất, quên mật khẩu
+ ✅ Phân quyền: Admin - Người bán - Khách hàng
+ ✅ Xác thực người dùng bằng JWT
+ ✅ Quản lý thông tin cá nhân (họ tên, email, số điện thoại…)
+1.2. Quản lý cửa hàng & sản phẩm
+✅ Người bán có thể tạo, cập nhật, xóa cửa hàng
+ ✅ Mỗi cửa hàng có thể đăng sản phẩm với hình ảnh, mô tả, giá bán
+ ✅ Chức năng tìm kiếm sản phẩm theo tên, danh mục, giá
+ ✅ API RESTful hỗ trợ CRUD sản phẩm
+1.3. Giỏ hàng & thanh toán đơn giản
+✅ Khách hàng có thể thêm/xóa sản phẩm vào giỏ hàng
+ ✅ Tính tổng tiền dựa trên số lượng sản phẩm
+ ✅ API xử lý đơn hàng đơn giản (chưa cần tích hợp cổng thanh toán)
+ ✅ Hệ thống lưu đơn hàng vào database
+1.4. Quản lý đơn hàng
+✅ Người mua có thể đặt hàng
+ ✅ Người bán có thể duyệt đơn hàng, thay đổi trạng thái (Chờ xác nhận, Đã giao, Hoàn tất, Hủy đơn)
+ ✅ API hỗ trợ lấy danh sách đơn hàng theo trạng thái
+1.5. Database & API
+✅ Thiết kế database quan hệ trên SQL Server
+ ✅ Xây dựng API theo mô hình RESTful với Spring Boot & Node.js
+ ✅ Kết nối frontend React.js với backend bằng API
+1.6. Giao diện cơ bản
+✅ Xây dựng UI với React.js, giao diện thân thiện
+ ✅ Giao diện người bán: Quản lý sản phẩm & đơn hàng
+ ✅ Giao diện khách hàng: Xem danh mục sản phẩm, giỏ hàng, đặt hàng
+ ✅ Responsive (tương thích với mobile & desktop)
+🚀 Kết quả đầu ra: Hệ thống cơ bản hoạt động được, có thể đặt hàng, xử lý đơn hàng và quản lý sản phẩm.
+
+II. Đồ án chuyên ngành (Giai đoạn 1.2)
+🔹 Mục tiêu: Mở rộng hệ thống, tích hợp thanh toán, vận chuyển, đánh giá, tối ưu hiệu suất và bảo mật.
+ 🔹 Công nghệ bổ sung:
+Payment API: VNPay, MoMo, PayPal
+Caching: Redis
+Real-time: WebSocket
+1. Nâng cấp & mở rộng hệ thống
+1.1. Thanh toán nâng cao
+✅ Tích hợp thanh toán VNPay, MoMo, PayPal
+ ✅ Hỗ trợ trả góp & thanh toán nhiều phương thức
+ ✅ Xử lý hoàn tiền & mã giảm giá
+1.2. Quản lý vận chuyển
+✅ Tích hợp dịch vụ giao hàng (GHN, Viettel Post, Ahamove)
+ ✅ API theo dõi trạng thái giao hàng theo thời gian thực
+ ✅ Hệ thống ước tính phí ship theo địa chỉ
+1.3. Hệ thống đánh giá & bình luận
+✅ Khách hàng có thể đánh giá sản phẩm (1-5 sao), viết bình luận
+ ✅ Người bán có thể phản hồi đánh giá
+ ✅ Hiển thị đánh giá trung bình trên mỗi sản phẩm
+1.4. Hệ thống đề xuất sản phẩm (AI cơ bản)
+✅ Đề xuất sản phẩm dựa trên lịch sử mua hàng
+ ✅ Gợi ý sản phẩm tương tự bằng machine learning (Collaborative Filtering)
+1.5. Giao diện chuyên nghiệp & UX nâng cao
+✅ Thiết kế lại UI/UX chuyên nghiệp với React.js + Tailwind CSS
+ ✅ Hiệu ứng mượt mà với Framer Motion
+ ✅ Tối ưu trải nghiệm trên mobile & desktop
+1.6. Tối ưu hiệu suất & bảo mật
+✅ Caching với Redis để tăng tốc độ tải trang
+ ✅ Bảo mật API với OAuth 2.0, JWT
+ ✅ Tối ưu truy vấn SQL để cải thiện hiệu suất
+🚀 Kết quả đầu ra: Hệ thống hoàn chỉnh, có thể sử dụng thực tế, có thanh toán online, giao hàng, bảo mật cao.
+
+III. Lộ trình tiếp theo (Giai đoạn 2 - Đồ án tốt nghiệp)
+📌 Hướng đi xa hơn nếu muốn phát triển thành đồ án tốt nghiệp hoặc startup:
+Mở rộng sang mô hình Marketplace (C2C, B2B)
+Tích hợp Chatbot AI hỗ trợ mua hàng
+Ứng dụng AI phân tích dữ liệu bán hàng
+Tích hợp tính năng Livestream bán hàng trực tiếp
+ 
+
