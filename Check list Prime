@@ -1,0 +1,66 @@
+Mọi người liệt kê những việc cần làm trong tuần (min 1, max : ∞)
+✅: Đã hoàn thành
+❌: Chưa hoàn thành
+⭕: Cần chú ý
+👍: Tạm, cần xem xét
+
+Đặc tả:
+  1 Xác định phạm vi đồ án:
+  2 Đối tượng sử dụng:
+  3 Chức năng hệ thống:
+  - Quản lý tài khoản:
+    + Đăng ký, đăng nhập
+    + Hồ sơ cá nhân
+    + Phân quyền
+  - Quản lý sản phẩm:
+    + Thêm, xóa, sửa
+    + Danh mục sản phẩm
+    + Tìm kiếm, lọc sản phẩm
+    + Đánh giá, phản hồi, góp ý, phê bình sản phẩm
+  - Quản lý đơn hàng:
+    + Đặt hàng, hủy đơn
+    + Trạng thái đơn hàng
+    + Lịch sử giao dịch
+  - Thanh toán:
+    + Đa dạng các phương thức thanh toán
+    + Bảo mật thông tin
+  - Quản lý vận chuyển:
+    + Đơn vị vận chuyển
+    + Trạng thái vận chuyển
+  - Hỗ trợ khách hàng:
+    + Tư vấn trực tuyến
+    + Gửi các yêu cầu hỗ trợ, hỏi đáp
+  4 Yêu cầu phi chức năng:
+  - Hiệu suất, hiệu năng cao, đáp ứng nhiều người dùng đồng thời
+  - Bảo mật dữ liệu
+  - Giao diện thân thiện và dễ sử dụng
+  5 Công nghệ sử dụng:
+  -
+  -
+  -
+  6 Rủi ro và giải pháp:
+  -
+  - 
+  -
+  7 Kết luận:
+  - Chữ U và chữ T trong PrimeShop có nghĩa là Uy tín và Tuyệt vời!
+
+Tuần 1 (17/3 - 23/3)
+
+Tuần 2 (24/3 - 30/3)
+
+Tuần 3 (31/3 - 6/4)
+
+Tuần 4 (7/4 - 13/4)
+
+Tuần 5 (14/4 - 20/4)
+
+Tuần 6 (21/4 - 27/4)
+
+Tuần 7 (28/4 - 4/5)
+
+Tuần 8 (5/5 - 11/5)
+
+Tuần 9 (12/5 - 18/5)
+
+Tuần 10 (19/5 - 26/5)
